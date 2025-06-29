@@ -123,6 +123,8 @@ Please make sure your PR follows the coding standards defined in the ESLint conf
 
 [R Cube Dev](https://rcubedev.netlify.app)
 
+If you like the boilerplate, I would like to hear from you what you built. Star this Repo.
+
 ## 📄 License
 
 This project is licensed under the MIT License.
