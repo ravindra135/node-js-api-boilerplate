@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Output directories
+dist/
+build/
+.temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*.local
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+coverage/
+.nyc_output/
+
+# Lint caches
+.eslintcache
+
+# Optional: PM2
+pids/
+*.pid
+*.seed
+
+# Optional: Docker
+docker-compose.override.yml
+.env.docker
+
+# Prisma generated files
+# Exclude everything in node_modules/.prisma except the client
+node_modules/.prisma/*
+!node_modules/.prisma/client
+
+# Prisma migrations
+prisma/migrations
+
+
+# Public Folder (except assets folder) and Zip files.
+logs/
+/src/public/*
+!/src/public/assets
+*.zip
